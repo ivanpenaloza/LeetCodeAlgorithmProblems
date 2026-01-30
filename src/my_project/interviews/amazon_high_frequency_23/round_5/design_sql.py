@@ -1,5 +1,6 @@
 from typing import List, Union, Collection, Mapping, Optional, Dict
 
+
 class Table:
 
     def __init__(self, name:str, columns: int, rows: Dict, row_count: int = 0):
@@ -98,8 +99,6 @@ class SQL:
             result.append(f"{row_id},{row_str}")
         
         return result
-
-
         
 
 
