@@ -1,4 +1,4 @@
-from typing import List, Union, Collection, Mapping, Optional
+from typing import List, Union, Collection, Mapping, Optional, Dict
 from abc import ABC, abstractmethod
 import math
 
@@ -8,7 +8,5 @@ class Solution:
         jobs.sort()
         workers.sort()
 
-        return max([math.ceil(n/d) for n,d in zip(jobs, workers)])
-
-
-
+        return max([math.ceil(n/d) for n, d in zip(jobs, workers)])
+        
