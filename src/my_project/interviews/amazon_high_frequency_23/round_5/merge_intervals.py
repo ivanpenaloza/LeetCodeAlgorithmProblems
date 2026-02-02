@@ -1,6 +1,7 @@
 from typing import List, Union, Collection, Mapping, Optional
 from abc import ABC, abstractmethod
 
+
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
 
