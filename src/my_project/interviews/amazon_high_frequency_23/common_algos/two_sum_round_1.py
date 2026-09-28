@@ -11,9 +11,7 @@ class Solution:
             if v in answer:
                 return [answer[v], k]
             else: 
-                answer[target - v] = k 
+                answer[target - v] = k
 
         return []
-
-        
 
