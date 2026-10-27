@@ -12,7 +12,7 @@ class Solution:
         s = re.sub(pattern=r'[^a-zA-Z0-9]', repl='', string=s)
 
         # Determine if s is palindrome or not
-        len_s = len(s)
+        len_s = len(s)        
 
         for i in range(len_s//2):
 
