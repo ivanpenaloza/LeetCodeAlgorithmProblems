@@ -2,6 +2,7 @@ from typing import List, Union, Collection, Mapping, Optional
 from abc import ABC, abstractmethod
 import re
 
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
 
