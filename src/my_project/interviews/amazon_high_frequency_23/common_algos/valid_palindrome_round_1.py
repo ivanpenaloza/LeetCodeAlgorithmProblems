@@ -20,4 +20,4 @@ class Solution:
             if s[i] != s[len_s - 1 - i]:
                 return False 
 
-        return True 
+        return True
